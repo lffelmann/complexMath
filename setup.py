@@ -1,19 +1,19 @@
 import setuptools
 
 VERSION = "0.0.1"
-DESCRIPTION = "SUse complex numbers in python."
+DESCRIPTION = "Use complex numbers in python."
 
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name="complexMath",
+    name="complexNumbers",
     version=VERSION,
     author="lffelmann",
     desription=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    url="https://github.com/lffelmann/complexMath",
+    url="https://github.com/lffelmann/complexNumbers",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

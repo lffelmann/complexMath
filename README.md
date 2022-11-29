@@ -1,4 +1,4 @@
-# complexMath
+# complexNumbers
 
 Use complex numbers in python.
 
